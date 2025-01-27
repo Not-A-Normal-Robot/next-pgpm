@@ -1,0 +1,44 @@
+@use '@/app/consts';
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100svh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100svh;
+  padding: 80px;
+}
+
+.mid {
+  margin-block: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: consts.$foreground-accent-light;
+  text-shadow: 0.1ch 0.1em consts.$foreground-accent-dark;
+}
+.subtitle {
+  margin: 8px;
+  font-style: italic;
+}
+
+.search {
+  margin-block-start: 16px;
+  width: 100%;
+}
+
+.random {
+  margin-top: 20px;
+}
